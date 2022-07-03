@@ -5,6 +5,7 @@
 *
 * Return: Always 0 (Success/correct)
 */
+
 int main(void)
 {
 int number;
@@ -16,7 +17,7 @@ if (number == 57)
 break;
 }
 putchar(',');
-puchar (' ');
+putchar (' ');
 }
 putchar('\n');
 return (0);
