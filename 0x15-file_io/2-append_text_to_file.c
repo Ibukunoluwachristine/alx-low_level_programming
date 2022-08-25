@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * append_text_to_file - appends text at the end of a file
@@ -15,7 +15,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	int rwr;
 
 	if (!filename)
-		return (-1);
+		return (-1)
 
 	fd = open(filename, O_WRONLY | O_APPEND);
 
@@ -38,5 +38,5 @@ int append_text_to_file(const char *filename, char *text_content)
 	return (1);
 }
 
-	© 2022 GitHub, Inc.
+    © 2022 GitHub, Inc.
 
